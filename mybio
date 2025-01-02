@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sumit Kumar - Associate Consultant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Sumit Kumar</h1>
+            <p>Associate Consultant | Problem Solver | Data Enthusiast</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hi, I'm Sumit Kumar, an Associate Consultant with expertise in problem-solving, data analysis, and business strategy. I have a passion for helping businesses optimize processes and achieve their goals through data-driven decision-making. I strive to bring innovative solutions to every challenge I encounter.</p>
+        </div>
+    </section>
+
+    <section id="resume" class="section">
+        <div class="container">
+            <h2>Resume</h2>
+            <p><strong>Current Position:</strong> Associate Consultant</p>
+            <p><strong>Experience:</strong> 2+ years in consulting with a focus on data analysis, strategy optimization, and process improvement.</p>
+
+            <h3>Skills</h3>
+            <ul>
+                <li>Data Analysis</li>
+                <li>Project Management</li>
+                <li>Business Strategy</li>
+                <li>Problem Solving</li>
+                <li>Process Optimization</li>
+                <li>Excel, Power BI, SQL</li>
+            </ul>
+
+            <h3>Education</h3>
+            <p><strong>XYZ University</strong> - Bachelor's in Business Administration</p>
+
+            <h3>Work Experience</h3>
+            <p><strong>Company ABC</strong> - Consultant (2023-Present)</p>
+            <p><strong>Company XYZ</strong> - Junior Consultant (2021-2023)</p>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch with me for consulting, collaborations, or any inquiries, feel free to reach out via the following:</p>
+            <ul>
+                <li>Email: <a href="mailto:sumit.kumar@email.com">sumit.kumar@email.com</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/sumitkumar">linkedin.com/in/sumitkumar</a></li>
+                <li>Phone: +1234567890</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Sumit Kumar</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+nav {
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 8px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+a {
+    color: #0073e6;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+// Example of a dark mode toggle
+document.addEventListener("DOMContentLoaded", function() {
+    let darkModeButton = document.createElement('button');
+    darkModeButton.innerText = "Toggle Dark Mode";
+    darkModeButton.style.position = "fixed";
+    darkModeButton.style.bottom = "20px";
+    darkModeButton.style.right = "20px";
+    document.body.appendChild(darkModeButton);
+
+    darkModeButton.addEventListener('click', function() {
+        document.body.classList.toggle('dark-mode');
+    });
+});
